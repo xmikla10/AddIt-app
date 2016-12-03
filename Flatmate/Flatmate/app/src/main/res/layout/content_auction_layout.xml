@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#efefef">
+
+        <include layout="@layout/task_auction"/>
+
+        <TextView
+            android:text="  Auction :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:gravity="left|center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:layout_weight="0.05" />
+
+
+        <include layout="@layout/task_auction_bid"/>
+
+        <include layout="@layout/task_auction_bid"/>
+
+        <include layout="@layout/task_auction_bid"/>
+
+    </LinearLayout>
+</ScrollView>
