@@ -1,0 +1,3 @@
+[submodule "Helpmate"]
+	path = Helpmate
+	url = ../../petermiklanek/Flatmate.git
