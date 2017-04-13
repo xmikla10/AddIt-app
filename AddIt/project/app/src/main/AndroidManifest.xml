@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="addit.vutbr.fit.addit">
+
+    <application
+        android:name=".application.AddItApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".view.AppLoadingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.MainPage"
+            android:label="@string/app_name"
+            android:configChanges="locale"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".view.ListOfAll" />
+
+        <activity android:name=".view.AddNew" />
+
+        <activity android:name=".view.Other" />
+
+        <activity
+            android:name=".view.SpinnerPriority"
+            android:theme="@style/AppTheme.CustomTheme" />
+
+        <activity
+            android:name=".view.TimePopUp"
+            android:theme="@style/AppTheme.CustomTheme" />
+
+        <activity
+            android:name=".view.DatePopUp"
+            android:theme="@style/AppTheme.CustomTheme" />
+
+        <activity android:name=".view.AppPreferences"
+            android:configChanges="locale"/>
+
+    </application>
+
+</manifest>

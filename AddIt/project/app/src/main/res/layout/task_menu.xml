@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton"
+        android:layout_weight="0.54"
+        android:textOn="@string/main_page"
+        android:textOff="@string/main_page"
+        android:textColor="@android:color/background_light"
+        android:background="#121271"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton2"
+        android:layout_weight="0.48"
+        android:textOff="@string/list_of_all"
+        android:textOn="@string/list_of_all"
+        android:textColor="@android:color/background_light"
+        android:checked="false"
+        android:background="#121271" />
+
+    <ToggleButton
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton3"
+        android:textOff="@string/history"
+        android:textOn="@string/history"
+        android:textColor="@android:color/background_light"
+        android:checked="false"
+        android:background="#121271" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+DEADLINE nedele pulnoc!!! (evil face)
+
+DALSI CHECKPOINT - NEDELE VECER 20:00?
+
+LUKAS:
+* listOfAll pridat kategorie dneska, zitra, budoucnost
+
+DAVID:
+* tlacitko ACCEPT => DONE
+* zamyslet se nad DONE vs DELETE => DONE
+* potvrzeni po swipu(checkbox na zobrazeni pouze jednou) => DONE
+* udelat nastrel recyclerview => DONE
+
+PETER:
+* dodelat prioritu  -  idealne tam pridat to kolecko  => DONE
+					- task zatim neuklada informaci o priorite do databaze => DONE
+
+* dodelat subtasky
+* active/pasive tlacitka date a time + samozrejme show more options
+* nastaveni(SharedPreferences) => DONE
+
+
+/////////////////////////////////////////////////////////////////
+SHOULD BE DONE
+
+AddNew
+-pri editacnim modu by melo potvrzovaci tlacitko mit jiny text nez Add It, treba edit
+-to same i title page
+-kdyz zvolim prioritu a otocim obrazovku, volba nezustane ulozena  a pri kliknuti na addIt to pada
+-tu prioritu bych spise videl jako spinner, kde potvrdis hned tim, ze na danou polozku kliknes
+
+Other
+-melo by se jmenovat jinak => DONE
+
+Other i ListOfALl
+- po kliknuti na polozku moznost editace
+- po swipnuti polozky odstraneni(s potvrzovacim dialogem)
