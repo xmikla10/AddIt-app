@@ -1,3 +1,0 @@
-1) use KISS rule (keep it simple, stupid)
-2) use colours from green to red to identify the urgency of given task
-3) three groups for testing - teenagers, adults(25-59...), retired people
